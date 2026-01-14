@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #2ecc71, #27ae60);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== CARD ===== */
+.auth-card {
+    background: #fff;
+    width: 380px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+
+/* ===== LOGO ===== */
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo .icon {
+    font-size: 40px;
+}
+
+.logo h2 {
+    color: #2ecc71;
+    margin-top: 5px;
+}
+
+.logo p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* ===== FORM ===== */
+form {
+    margin-top: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2ecc71;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #2ecc71;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #27ae60;
+}
+
+.auth-footer {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+
+.auth-footer a {
+    color: #2ecc71;
+    text-decoration: none;
+    font-weight: bold;
+}
