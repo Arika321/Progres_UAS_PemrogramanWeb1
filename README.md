@@ -1,8 +1,9 @@
 # halaman Login
-<img width="1366" height="686" alt="Image" src="https://github.com/user-attachments/assets/7e6f0504-b3f6-455b-8084-2ac400f1dfd2" />
+<img width="1360" height="650" alt="Image" src="https://github.com/user-attachments/assets/cffca53f-7661-473e-9491-c45fe6dd156b" />
 
 # halama Register
-<img width="1366" height="661" alt="Image" src="https://github.com/user-attachments/assets/4c8096f4-c990-4d33-9d3a-347ab63e92d2" />
+<img width="1366" height="648" alt="image" src="https://github.com/user-attachments/assets/35dc5291-aeec-43e5-88bf-e550cc8ab657" />
+
 
 # halaman dashboard
 <img width="1365" height="678" alt="Image" src="https://github.com/user-attachments/assets/af67d172-eec4-46ad-b125-aa5648dcde37" />
