@@ -17,5 +17,12 @@
 # halaman Laporan
 <img width="1366" height="668" alt="Image" src="https://github.com/user-attachments/assets/6074605d-ee98-4f3b-a04c-6a71e211a7b3" />
 
+# halaman Laporan Excel
+<img width="674" height="299" alt="Image" src="https://github.com/user-attachments/assets/5a2e3475-7a7a-4e9b-9651-c89a8eb0dd69" />
+
+# halaman test koneksi
+<img width="674" height="299" alt="Image" src="https://github.com/user-attachments/assets/5a2e3475-7a7a-4e9b-9651-c89a8eb0dd69" />
+
 <img width="1149" height="543" alt="Image" src="https://github.com/user-attachments/assets/b0f490d2-6241-4c72-8b42-c6d9a3820af9" />
+
  <img width="548" height="617" alt="Image" src="https://github.com/user-attachments/assets/b7219f1a-8277-42a4-b5d0-d88ee161bd6f" />
