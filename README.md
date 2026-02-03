@@ -1,36 +1,240 @@
-# halaman Login
+
+# 🧹 CleanTrash - Sistem Informasi Pengelolaan Sampah Berbasis Web
+
+CleanTrash adalah aplikasi web yang dikembangkan sebagai project Ujian Akhir Semester mata kuliah **Pemrograman Web 1**.  
+Aplikasi ini digunakan untuk membantu proses pengelolaan data sampah, pengguna, serta laporan secara terintegrasi antara backend dan frontend.
+
+---
+
+## 📚 Informasi Project
+
+- Mata Kuliah : Pemrograman Web 1  
+- Dosen Pengampu : Nova Agustina, S.T., M.Kom  
+- Jenis Project : Ujian Akhir Semester  
+- Metode Pengerjaan : Individu  
+- Studi Kasus : Pengelolaan Sampah (CleanTrash)
+
+---
+## 👤 Identitas Mahasiswa
+
+Nama          : Arika Azhar 
+NPM           : 23552011408
+Kelas         : TIF 23 RP CNS B 
+Program Studi : Teknik Informatika
+
+---
+## 🎯 Tujuan Aplikasi
+
+- Mengelola data sampah secara digital  
+- Mempermudah admin dalam memantau data  
+- Menyediakan laporan yang dapat diekspor  
+- Menerapkan konsep CRUD, autentikasi, dan session  
+- Mengintegrasikan frontend dan backend  
+
+---
+
+## 🚀 Fitur Utama
+
+- Autentikasi Login & Register  
+- Dashboard sebagai pusat informasi  
+- Manajemen data (CRUD)  
+- Manajemen pengguna  
+- Menu Profil (edit data & foto profil)  
+- Export laporan ke PDF  
+- Export laporan ke Excel  
+- Session & keamanan halaman  
+- Footer otomatis pada seluruh halaman  
+- Hosting online  
+
+---
+
+## 🧩 Teknologi yang Digunakan
+
+| Komponen | Teknologi |
+|--------|----------|
+| Backend | PHP Native |
+| Frontend | HTML, CSS, JavaScript |
+| Framework CSS | Bootstrap |
+| Database | MySQL |
+| Server | Apache |
+| Laporan | DomPDF & PhpSpreadsheet |
+
+---
+
+## 🗂 Struktur Folder Utama
+
+```
+UAS_Pemrograman-Web1
+│
+├── config
+│   └── koneksi.php
+│
+├── assets
+│   ├── css
+│   ├── js
+│   └── images
+│
+├── uploads
+│   └── profile
+│
+├── auth
+│   ├── login.php
+│   ├── register.php
+│   └── logout.php
+│
+├── dashboard.php
+├── profile.php
+├── profile_edit.php
+├── profile_update.php
+├── laporan.php
+└── README.md
+```
+
+---
+
+## ⚙️ Cara Instalasi
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/MuhamadAkbarErgiansyah/UAS_Pemrograman-Web1.git
+```
+
+### 2. Pindahkan ke Folder XAMPP
+
+```
+C:\xampp\htdocs\
+```
+
+### 3. Buat Database
+
+Buka phpMyAdmin lalu jalankan:
+
+```sql
+CREATE DATABASE cleantrash;
+```
+
+Import file SQL yang tersedia di folder project (jika ada).
+
+---
+
+### 4. Konfigurasi Koneksi Database
+
+Edit file:
+
+```
+config/koneksi.php
+```
+
+```php
+$host = "localhost";
+$user = "root";
+$pass = "";
+$db   = "cleantrash";
+```
+
+---
+
+### 5. Jalankan Project
+
+Buka browser:
+
+```
+http://localhost/UAS_Pemrograman-Web1
+```
+
+---
+
+## 🔐 Akun Default (Jika Ada)
+
+```
+Email    : admin@gmail.com
+Password : admin123
+```
+
+---
+
+## 🧪 Cara Penggunaan
+
+1. Register akun baru  
+2. Login ke sistem  
+3. Masuk ke Dashboard  
+4. Kelola data menggunakan menu CRUD  
+5. Lihat laporan  
+6. Export PDF atau Excel  
+7. Edit profil jika diperlukan  
+8. Logout  
+
+---
+
+## 📤 Export Laporan
+
+- PDF  
+- Excel  
+
+File laporan dapat langsung diunduh dari menu laporan.
+
+---
+
+## 🔗 Link Project
+
+### 📦 GitHub Repository
+
+
+
+## 🖼 Screenshot Aplikasi
+
+### Halaman Login
 <img width="1360" height="650" alt="Image" src="https://github.com/user-attachments/assets/cffca53f-7661-473e-9491-c45fe6dd156b" />
 
-# halama Register
+### halaman Register
 <img width="1366" height="648" alt="image" src="https://github.com/user-attachments/assets/35dc5291-aeec-43e5-88bf-e550cc8ab657" />
 
 
-# halaman dashboard Admin
+#### halaman dashboard Admin
 <img width="1365" height="678" alt="Image" src="https://github.com/user-attachments/assets/af67d172-eec4-46ad-b125-aa5648dcde37" />
 
-# halaman dashboard Nasabah
+### halaman dashboard Nasabah
 <img width="1366" height="681" alt="Image" src="https://github.com/user-attachments/assets/ae0eac13-29d3-4827-96d4-77d3de25e6d4" />
 
 
-# halaman data Nasabah
+### halaman data Nasabah
 <img width="1366" height="675" alt="Image" src="https://github.com/user-attachments/assets/cd3a9126-dd78-4bf4-967b-213992e7b607" />
 
-# halaman Transaksi
+### halaman Transaksi
 <img width="1366" height="677" alt="Image" src="https://github.com/user-attachments/assets/55b56907-150e-459c-bc35-7871d24baf73" />
 
-# halaman Laporan
+### halaman Laporan
 <img width="1366" height="668" alt="Image" src="https://github.com/user-attachments/assets/6074605d-ee98-4f3b-a04c-6a71e211a7b3" />
 
-# halaman Laporan PDF
+#### halaman Laporan PDF
  <img width="548" height="617" alt="Image" src="https://github.com/user-attachments/assets/b7219f1a-8277-42a4-b5d0-d88ee161bd6f" />
 
-# halaman Laporan Excel
+### halaman Laporan Excel
 <img width="674" height="299" alt="Image" src="https://github.com/user-attachments/assets/5a2e3475-7a7a-4e9b-9651-c89a8eb0dd69" />
 
 
-# halaman test koneksi
-<img width="1149" height="543" alt="Image" src="https://github.com/user-attachments/assets/b0f490d2-6241-4c72-8b42-c6d9a3820af9" />
 
-# VIDIO DEMO 
+## 🎥 Video Demo Project
+
+(Upload ke Google Drive / YouTube)
+
+```
 https://drive.google.com/file/d/1ENRLX54BAXJ7PVwWa84_Tn63Ry-vhL_5/view?usp=drive_link
+```
+
+
+---
+
+## 📝 Catatan
+
+Project ini dibuat untuk memenuhi tugas Ujian Akhir Semester mata kuliah Pemrograman Web 1.  
+Segala bentuk pengembangan lanjutan dapat dilakukan sesuai kebutuhan.
+
+---
+
+## 📜 Lisensi
+
+MIT License  
+© 2026 CleanTrash
 
