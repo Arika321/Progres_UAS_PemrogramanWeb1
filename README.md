@@ -97,7 +97,7 @@ UAS_Pemrograman-Web1
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/MuhamadAkbarErgiansyah/UAS_Pemrograman-Web1.git
+https://github.com/Arika321/UAS_PemrogramanWeb1.git
 ```
 
 ### 2. Pindahkan ke Folder XAMPP
@@ -179,8 +179,7 @@ File laporan dapat langsung diunduh dari menu laporan.
 ## 🔗 Link Project
 
 ### 📦 GitHub Repository
-
-
+https://github.com/Arika321/UAS_PemrogramanWeb1.git
 
 ## 🖼 Screenshot Aplikasi
 
@@ -217,10 +216,10 @@ File laporan dapat langsung diunduh dari menu laporan.
 
 ## 🎥 Video Demo Project
 
-(Upload ke Google Drive / YouTube)
+(Upload ke Google Drive)
 
 ```
-https://drive.google.com/file/d/1ENRLX54BAXJ7PVwWa84_Tn63Ry-vhL_5/view?usp=drive_link
+]([https://drive.google.com/file/d/1ENRLX54BAXJ7PVwWa84_Tn63Ry-vhL_5/view?usp=drive_link)
 ```
 
 
