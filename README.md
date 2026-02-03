@@ -176,8 +176,6 @@ File laporan dapat langsung diunduh dari menu laporan.
 
 ---
 
-## 🔗 Link Project
-
 ### 📦 GitHub Repository
 https://github.com/Arika321/UAS_PemrogramanWeb1.git
 
@@ -219,7 +217,7 @@ https://github.com/Arika321/UAS_PemrogramanWeb1.git
 (Upload ke Google Drive)
 
 ```
-]([https://drive.google.com/file/d/1ENRLX54BAXJ7PVwWa84_Tn63Ry-vhL_5/view?usp=drive_link)
+https://drive.google.com/file/d/1ENRLX54BAXJ7PVwWa84_Tn63Ry-vhL_5/view?usp=drive_link
 ```
 
 
